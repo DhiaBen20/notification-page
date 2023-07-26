@@ -9,7 +9,7 @@ function App() {
     const { notifications, unreadCount, dispatch } = useNotificationsProvider();
 
     return (
-        <div className="md:max-w-4xl shadow-slate-200 shadow-xl rounded-lg bg-white mx-auto md:my-20">
+        <div className="md:max-w-3xl shadow-slate-200 shadow-xl rounded-lg bg-white mx-auto md:my-20">
             <header className="flex items-center justify-between px-3 md:px-6">
                 <h2 className="font-bold text-lg flex items-center gap-4 my-6 tracking-tight">
                     Notifications{" "}
